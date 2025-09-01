@@ -2,7 +2,6 @@
 *:before,
 *:after {
   box-sizing: border-box;
-  position: relative;
 }
 
 html {
@@ -10,23 +9,23 @@ html {
   box-sizing: border-box;
   --padding-vertical: 30px;
   --padding-inline: 95px;
+  outline: 1px solid blue;
 }
 
 .container {
-  width: calc(var(--container) + var(--padding-inline) * 2);
+  max-width: calc(var(--container) + var(--padding-inline) * 2);
+  width: auto;
+  box-sizing: border-box;
   padding: 0 var(--padding-inline);
   margin: 0 auto;
 }
 
 body {
-  min-width: 100vw;
-  background-color: #f9f9f9;
+  background-color: #fff;
   min-height: 100vh;
   color: #1a202c;
-  padding: var(--padding-vertical) 0;
-  margin: auto;
+  padding: 0;
 }
-
 img,
 svg {
   max-width: 100%;
@@ -42,7 +41,7 @@ button {
   border-radius: 1em;
   border: 1px solid #6c5fbc;
   cursor: pointer;
-  background-color: #f9f9f9;
+  background-color: #fff;
 }
 
 a {
@@ -82,17 +81,17 @@ a:hover {
 
 .button-light {
   color: #606060;
-  border-color: #f9f9f9;
+  border-color: #fff;
 }
 
 .button-dark {
-  color: #f9f9f9;
+  color: #fff;
   background-color: #6c5fbc;
 }
 
 .button-dark:hover {
   color: #6c5fbc;
-  background-color: #f9f9f9;
+  background-color: #fff;
   border-color: #6c5fbc;
 }
 
@@ -106,10 +105,12 @@ span {
 }
 
 .meal-item {
-  width: 330px;
+  max-width: 330px;
   font-family: "Poppins", sans-serif;
   display: flex;
   gap: 18px;
+  width: 70%;
+
   justify-content: space-between;
   align-items: center;
   background-color: #ffffff;
@@ -118,7 +119,7 @@ span {
   border-radius: 17px;
   top: 0;
   left: 0;
-  z-index: 300;
+  z-index: 400;
 }
 
 .meal-item-title {
@@ -147,10 +148,9 @@ span {
   html {
     --container: 880px;
     --padding-vertical: 35px;
-    --padding-inline: 70px;
+    --padding-inline: 33px;
   }
   .meal-item {
-    width: 230px;
     height: 63px;
   }
   .meal-item img {
@@ -169,4 +169,34 @@ span {
     font-size: 8px;
     padding-left: 11px;
   }
+}
+
+@media (max-width: 768px) {
+  .meal-item {
+    height: 63px;
+  }
+  .meal-item img {
+    width: 52px;
+    height: 57px;
+  }
+  .meal-item-title {
+    font-size: 11px;
+  }
+
+  .meal-item-description {
+    font-size: 7px;
+  }
+
+  .meal-item-time {
+    font-size: 8px;
+    padding-left: 11px;
+  }
+  .meal-item-info {
+    text-align: justify;
+  }
+
+}
+
+body {
+  outline: 1px solid red;
 }
