@@ -148,7 +148,7 @@ span {
   html {
     --container: 880px;
     --padding-vertical: 35px;
-    --padding-inline: 33px;
+    --padding-inline: 70px;
   }
   .meal-item {
     height: 63px;
@@ -172,6 +172,9 @@ span {
 }
 
 @media (max-width: 768px) {
+  html {
+    --padding-inline: 31px;
+  }
   .meal-item {
     height: 63px;
   }

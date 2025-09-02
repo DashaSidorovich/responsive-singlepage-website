@@ -11,7 +11,7 @@ header {
   background-color: #fff;
   width: 100%;
 }
-li {
+.nav-ul li {
   margin-right: 30px;
 }
 
@@ -110,6 +110,7 @@ input#menu {
   align-items: center;
   gap: 20px;
   padding-top: 160px;
+  padding-bottom: 85px;
 }
 
 .header-info {
@@ -288,7 +289,7 @@ header .header-buttons {
     margin-bottom: 30px;
   }
   .header-content {
-    padding-top: 150px;
+    padding-bottom: 60px;
   }
 }
 @media (max-width: 768px) {
