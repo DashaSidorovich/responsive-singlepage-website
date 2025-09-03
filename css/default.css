@@ -144,6 +144,17 @@ span {
   padding-left: 22px;
 }
 
+.view-all-link {
+  font-size: 20px;
+  color: #acadb9;
+  text-align: end;
+}
+
+svg.view-all-link {
+  display: inline-block;
+  padding-left: 3px;
+}
+
 @media (max-width: 1024px) {
   html {
     --container: 880px;
@@ -197,7 +208,6 @@ span {
   .meal-item-info {
     text-align: justify;
   }
-
 }
 
 body {

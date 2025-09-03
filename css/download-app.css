@@ -1,5 +1,4 @@
 .download-app {
-  padding-top: 103px;
   text-align: justify;
 }
 
@@ -23,6 +22,9 @@
   justify-content: space-around;
   flex-wrap: wrap-reverse;
   row-gap: 150px;
+  padding-top: 103px;
+  padding-bottom: 103px;
+  border-bottom: 1px solid rgb(103, 103, 103, 0.4);
 }
 
 .download-app-ul {
@@ -90,6 +92,7 @@ svg#download-arrow {
   svg#download-arrow {
     height: 17px;
     width: 17px;
+
   }
   .download-app-image::before {
     transform: rotate(-45deg) scale(0.7);
