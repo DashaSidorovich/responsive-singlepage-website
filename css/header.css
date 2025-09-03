@@ -22,6 +22,7 @@ header {
   padding-bottom: 28px;
   padding-top: 28px;
   line-height: 27px;
+  min-width: 330px;
 }
 
 .border {
@@ -353,7 +354,6 @@ header .header-buttons {
     padding: 2rem;
     font-size: 18px;
     border-bottom: 1px solid rgb(103, 103, 103, 0.4);
-
   }
   .nav-ul li {
     margin: 1rem 0rem;
@@ -369,11 +369,7 @@ header .header-buttons {
   svg#logo {
     min-width: 100px;
   }
-
-}
-
-@media (max-width: 400px) {
-  header .header-buttons {
+  .header-buttons button {
     display: none;
   }
 }

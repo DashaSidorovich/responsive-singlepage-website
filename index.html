@@ -176,9 +176,11 @@
     </div>
     <section class="container restaurants">
       <div class="restaurants__inner">
-        <h2 class="restaurants__title">Our Top <span>Restaurants</span></h2>
-        <ul class="restaurants__list">
-          <li class="restaurants__item">
+        <h2 class="restaurants__title title">
+          Our Top <span>Restaurants</span>
+        </h2>
+        <ul class="restaurants__list list">
+          <li class="restaurants__item item">
             <div class="restaurants__image-wrapper">
               <img
                 src="src/img/chicken-king.png"
@@ -187,9 +189,7 @@
               />
             </div>
             <div class="restaurants__info">
-              <div class="restaurants__tag restaurants__tag--orange">
-                Healthy
-              </div>
+              <div class="restaurants__tag tag tag--orange">Healthy</div>
               <h2 class="restaurants__name">The Chicken King</h2>
               <div class="restaurants__item-bottom">
                 <div class="restaurants__duration">24 min</div>
@@ -207,7 +207,7 @@
               </div>
             </div>
           </li>
-          <li class="restaurants__item">
+          <li class="restaurants__item item">
             <div class="restaurants__image-wrapper">
               <img
                 src="src/img/burger-king.png"
@@ -216,7 +216,7 @@
               />
             </div>
             <div class="restaurants__info">
-              <div class="restaurants__tag restaurants__tag--red">Trending</div>
+              <div class="restaurants__tag tag tag--red">Trending</div>
               <h2 class="restaurants__name">The Burger King</h2>
               <div class="restaurants__item-bottom">
                 <div class="restaurants__duration">24 min</div>
@@ -234,7 +234,7 @@
               </div>
             </div>
           </li>
-          <li class="restaurants__item">
+          <li class="restaurants__item item">
             <div class="restaurants__image-wrapper">
               <img
                 src="src/img/chicken-king.png"
@@ -243,11 +243,7 @@
               />
             </div>
             <div class="restaurants__info">
-              <div
-                class="restaurants__tag restaurants__tag restaurants__tag--orange"
-              >
-                Healthy
-              </div>
+              <div class="restaurants__tag tag tag--orange">Healthy</div>
               <h2 class="restaurants__name">The Chicken King</h2>
               <div class="restaurants__item-bottom">
                 <div class="restaurants__duration">24 min</div>
@@ -267,7 +263,198 @@
           </li>
         </ul>
         <div class="restaurants__link view-all-link">
-          <a href="#" 
+          <a href="#"
+            >View All
+            <svg
+              class="view-all-link"
+              width="19"
+              height="19"
+              viewBox="0 0 19 19"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M2 9.90234H17.8041"
+                stroke="#ACADB9"
+                stroke-width="2.25773"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+              <path
+                d="M9.90234 2L17.8044 9.90206L9.90234 17.8041"
+                stroke="#ACADB9"
+                stroke-width="2.25773"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+          </a>
+        </div>
+      </div>
+    </section>
+    <section class="container dishes">
+      <div class="dishes__inner">
+        <h2 class="dishes__title title">Our Top <span>Dishes</span></h2>
+        <ul class="dishes__list list">
+          <li class="dishes__item item">
+            <button class="dishes__fav">
+              <svg
+                id="dishes__fav-icon"
+                viewBox="0 0 22 19"
+                role="img"
+                aria-label="Save"
+              >
+                <use href="src/sprite.svg#dishes-fav" />
+              </svg>
+            </button>
+            <div class="dishes__image-wrapper">
+              <img
+                src="/src/img/food-image-1.png"
+                alt="Image 1"
+                class="dishes__image"
+              />
+            </div>
+            <div class="dishes__tag tag tag--orange">Healthy</div>
+            <h2 class="dishes__name">Chicken Hell</h2>
+            <div class="dishes__info">
+              <div class="dishes__duration">24 min</div>
+              <div class="dishes__rating">4.8</div>
+            </div>
+            <div class="dishes__cart">
+              <div class="dishes__price">
+                $12<span class="dishes__price-span">.99</span>
+              </div>
+              <button class="dishes__cart-button">+</button>
+            </div>
+          </li>
+          <li class="dishes__item item">
+            <button class="dishes__fav">
+              <svg
+                id="dishes__fav-icon"
+                viewBox="0 0 22 19"
+                role="img"
+                aria-label="Save"
+              >
+                <use href="src/sprite.svg#dishes-fav" />
+              </svg>
+            </button>
+            <div class="dishes__image-wrapper">
+              <img
+                src="/src/img/food-image-2.png"
+                alt="Image 2"
+                class="dishes__image"
+              />
+            </div>
+            <div class="dishes__tag tag tag--red">Trending</div>
+            <h2 class="dishes__name">Swe Dish</h2>
+            <div class="dishes__info">
+              <div class="dishes__duration">34 min</div>
+              <div class="dishes__rating">4.9</div>
+            </div>
+            <div class="dishes__cart">
+              <div class="dishes__price">
+                $19<span class="dishes__price-span">.99</span>
+              </div>
+              <button class="dishes__cart-button">+</button>
+            </div>
+          </li>
+          <li class="dishes__item item">
+            <button class="dishes__fav">
+              <svg
+                id="dishes__fav-icon"
+                viewBox="0 0 22 19"
+                role="img"
+                aria-label="Save"
+              >
+                <use href="src/sprite.svg#dishes-fav" />
+              </svg>
+            </button>
+            <div class="dishes__image-wrapper">
+              <img
+                src="/src/img/food-image-3.png"
+                alt="Image 3"
+                class="dishes__image"
+              />
+            </div>
+            <div class="dishes__tag tag tag--green">Supreme</div>
+            <h2 class="dishes__name">Swe Dish</h2>
+            <div class="dishes__info">
+              <div class="dishes__duration">34 min</div>
+              <div class="dishes__rating">4.9</div>
+            </div>
+            <div class="dishes__cart">
+              <div class="dishes__price">
+                $19<span class="dishes__price-span">.99</span>
+              </div>
+              <button class="dishes__cart-button">+</button>
+            </div>
+          </li>
+          <li class="dishes__item item">
+            <button class="dishes__fav">
+              <svg
+                id="dishes__fav-icon"
+                viewBox="0 0 22 19"
+                role="img"
+                aria-label="Save"
+              >
+                <use href="src/sprite.svg#dishes-fav" />
+              </svg>
+            </button>
+            <div class="dishes__image-wrapper">
+              <img
+                src="/src/img/food-image-1.png"
+                alt="Image 1"
+                class="dishes__image"
+              />
+            </div>
+            <div class="dishes__tag tag tag--orange">Healthy</div>
+            <h2 class="dishes__name">Chicken Hell</h2>
+            <div class="dishes__info">
+              <div class="dishes__duration">24 min</div>
+              <div class="dishes__rating">4.8</div>
+            </div>
+            <div class="dishes__cart">
+              <div class="dishes__price">
+                $12<span class="dishes__price-span">.99</span>
+              </div>
+              <button class="dishes__cart-button">+</button>
+            </div>
+          </li>
+          <li class="dishes__item item">
+            <button class="dishes__fav">
+              <svg
+                id="dishes__fav-icon"
+                viewBox="0 0 22 19"
+                role="img"
+                aria-label="Save"
+              >
+                <use href="src/sprite.svg#dishes-fav" />
+              </svg>
+            </button>
+            <div class="dishes__image-wrapper">
+              <img
+                src="/src/img/food-image-2.png"
+                alt="Image 2"
+                class="dishes__image"
+              />
+            </div>
+            <div class="dishes__tag tag tag--red">Trending</div>
+            <h2 class="dishes__name">Swe Dish</h2>
+            <div class="dishes__info">
+              <div class="dishes__duration">34 min</div>
+              <div class="dishes__rating">4.9</div>
+            </div>
+            <div class="dishes__cart">
+              <div class="dishes__price">
+                $19<span class="dishes__price-span">.99</span>
+              </div>
+
+              <button class="dishes__cart-button">+</button>
+            </div>
+          </li>
+        </ul>
+        <div class="dishes__link view-all-link">
+          <a href="#"
             >View All
             <svg
               class="view-all-link"

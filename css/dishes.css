@@ -1,0 +1,158 @@
+.dishes__inner {
+  padding-top: var(--padding-top-catalogues);
+  padding-bottom: var(--padding-bottom-catalogues);
+  font-size: 12px;
+  font-family: "Poppins", sans-serif;
+}
+
+.dishes__title {
+  margin-bottom: 75px;
+}
+
+.dishes__list {
+  grid-template-columns: repeat(5, 1fr);
+  margin-bottom: 65px;
+}
+
+.dishes__item {
+  position: relative;
+  padding: 26px 18px 29px 23px;
+}
+
+.dishes__fav {
+  border: none;
+  position: absolute;
+  background-color: transparent;
+  top: 1%;
+  right: 5%;
+}
+
+svg#dishes__fav-icon {
+  width: 19px;
+  height: 22px;
+}
+.dishes__image-wrapper {
+  aspect-ratio: 1/1;
+}
+.dishes__image {
+  width: 100%;
+  height: 100%;
+}
+
+.dishes__name {
+  font-size: 23px;
+  line-height: 1.6;
+  font-weight: 600;
+}
+
+.dishes__info {
+  display: flex;
+  justify-content: space-between;
+  font-size: 17px;
+  line-height: 1.35;
+  color: #8e97a6;
+  margin-bottom: 13px;
+}
+
+.dishes__duration::after {
+  content: "•";
+  padding-left: 3px;
+}
+
+.dishes__rating {
+  position: relative;
+  text-align: end;
+}
+
+.dishes__rating::before {
+  content: "";
+  position: absolute;
+  left: -80%;
+  top: 10%;
+  background-image: url("/src/img/star.svg");
+  width: 18px;
+  height: 18px;
+}
+
+.dishes__cart {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Manrope", sans-serif;
+  font-size: 26px;
+  line-height: 1.6;
+  font-weight: 700;
+}
+
+.dishes__price-span {
+  color: #8e97a6;
+  font-size: 0.7em;
+}
+
+.dishes__cart-button {
+  background-color: #323142;
+  color: #ffffff;
+  font-size: 18px;
+  line-height: 1;
+  border-radius: 9px;
+  padding: 12px;
+  max-width: 30%;
+}
+
+@media (max-width: 1250px) {
+  .dishes__title {
+    margin-bottom: 53px;
+  }
+
+  .dishes__list {
+    grid-template-columns: repeat(3, 1fr);
+    margin-bottom: 45px;
+  }
+
+  .dishes__item {
+    padding: 18px 12px 21px 18px;
+  }
+
+  .dishes__rating::before {
+    left: -80%;
+  }
+}
+
+@media (max-width: 768px) {
+  .dishes__title {
+    margin-bottom: 53px;
+  }
+
+  .dishes__list {
+    margin-bottom: 47px;
+  }
+
+  .dishes__item {
+    padding: 18px 13px 21px 16px;
+  }
+
+  .dishes__fav {
+    right: 2%;
+  }
+
+  .dishes__name {
+    font-size: 17px;
+  }
+
+  .dishes__cart {
+    font-size: 22px;
+  }
+
+  .dishes__cart-button {
+    font-size: 18px;
+    line-height: 1;
+    padding: 12px;
+  }
+}
+
+@media (max-width: 535px) {
+  .dishes__list {
+    grid-template-columns: repeat(2, 1fr);
+    margin-bottom: 47px;
+  }
+}

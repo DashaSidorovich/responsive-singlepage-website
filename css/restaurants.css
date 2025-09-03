@@ -1,30 +1,22 @@
 .restaurants__inner {
-  padding-top: 100px;
-  padding-bottom: 120px;
+  padding-top: var(--padding-top-catalogues);
+  padding-bottom: var(--padding-bottom-catalogues);
   border-bottom: 1px solid rgb(103, 103, 103, 0.4);
   font-family: "Poppins", sans-serif;
   font-size: 13px;
 }
 
 .restaurants__title {
-  font-size: 45px;
-  font-weight: 600;
-  line-height: 0.55;
   margin-bottom: 85px;
-  text-align: center;
 }
 
 .restaurants__list {
-  display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 40px 30px;
   margin-bottom: 65px;
 }
 
-.restaurants__item {
-  border-radius: 30px;
-  overflow: hidden;
-  box-shadow: 6px 71px 36px rgba(229, 229, 229, 0.7);
+.restaurants__item:hover {
+  transform: scale(1.1);
 }
 
 .restaurants__image {
@@ -33,23 +25,6 @@
 
 .restaurants__info {
   padding: 11px 32px 17px;
-}
-
-.restaurants__tag {
-  font-size: 1em;
-  border-radius: 5.5px;
-  max-width: fit-content;
-  padding: 2px 8px;
-}
-
-.restaurants__tag--orange {
-  color: #daa31a;
-  background-color: #f7edd0;
-}
-
-.restaurants__tag--red {
-  color: #fb471d;
-  background-color: #f7c5ba;
 }
 
 .restaurants__name {
@@ -108,8 +83,6 @@ svg#restaurants__icon {
   }
 
   .restaurants__inner {
-    padding-top: 70px;
-    padding-bottom: 85px;
     font-size: 9px;
   }
 
@@ -130,8 +103,6 @@ svg#restaurants__icon {
   }
 
   .restaurants__inner {
-    padding-top: 84px;
-    padding-bottom: 66px;
     font-size: 10px;
   }
 
