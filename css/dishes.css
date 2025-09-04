@@ -3,6 +3,8 @@
   padding-bottom: var(--padding-bottom-catalogues);
   font-size: 12px;
   font-family: "Poppins", sans-serif;
+    border-bottom: 1px solid rgb(103, 103, 103, 0.4);
+
 }
 
 .dishes__title {
@@ -27,7 +29,7 @@
   right: 5%;
 }
 
-svg#dishes__fav-icon {
+svg.dishes__fav-icon {
   width: 19px;
   height: 22px;
 }

@@ -196,7 +196,7 @@
                 <div class="restaurants__rating">4.8</div>
                 <button class="restaurants__item-button">
                   <svg
-                    id="restaurants__icon"
+                    class="restaurants__icon"
                     viewBox="0 0 16 21"
                     role="img"
                     aria-label="Save"
@@ -223,7 +223,7 @@
                 <div class="restaurants__rating">4.9</div>
                 <button class="restaurants__item-button">
                   <svg
-                    id="restaurants__icon"
+                    class="restaurants__icon"
                     viewBox="0 0 16 21"
                     role="img"
                     aria-label="Save"
@@ -250,7 +250,7 @@
                 <div class="restaurants__rating">4.8</div>
                 <button class="restaurants__item-button">
                   <svg
-                    id="restaurants__icon"
+                    class="restaurants__icon"
                     viewBox="0 0 16 21"
                     role="img"
                     aria-label="Save"
@@ -299,7 +299,7 @@
           <li class="dishes__item item">
             <button class="dishes__fav">
               <svg
-                id="dishes__fav-icon"
+                class="dishes__fav-icon"
                 viewBox="0 0 22 19"
                 role="img"
                 aria-label="Save"
@@ -330,7 +330,7 @@
           <li class="dishes__item item">
             <button class="dishes__fav">
               <svg
-                id="dishes__fav-icon"
+                class="dishes__fav-icon"
                 viewBox="0 0 22 19"
                 role="img"
                 aria-label="Save"
@@ -361,7 +361,7 @@
           <li class="dishes__item item">
             <button class="dishes__fav">
               <svg
-                id="dishes__fav-icon"
+                class="dishes__fav-icon"
                 viewBox="0 0 22 19"
                 role="img"
                 aria-label="Save"
@@ -392,7 +392,7 @@
           <li class="dishes__item item">
             <button class="dishes__fav">
               <svg
-                id="dishes__fav-icon"
+                class="dishes__fav-icon"
                 viewBox="0 0 22 19"
                 role="img"
                 aria-label="Save"
@@ -423,7 +423,7 @@
           <li class="dishes__item item">
             <button class="dishes__fav">
               <svg
-                id="dishes__fav-icon"
+                class="dishes__fav-icon"
                 viewBox="0 0 22 19"
                 role="img"
                 aria-label="Save"
@@ -480,6 +480,110 @@
               />
             </svg>
           </a>
+        </div>
+      </div>
+    </section>
+    <section class="container purchases">
+      <div class="purchases__inner">
+        <div class="purchases__text">
+          <h2 class="purchases__title">
+            Control <span>Purchases</span> Via Dashboard
+          </h2>
+          <ul class="purchases__meal-list">
+            <li class="purchases__meal-item">
+              <div class="purchases__meal-image">
+                <img src="src/img/food-image-1.png" alt="Meal" />
+              </div>
+              <div class="purchases__meal-info">
+                <p class="purchases__meal-name">Chicken Hell</p>
+                <p class="purchases__meal-description">On the way</p>
+                <div class="purchases__meal-time">3:09 PM</div>
+              </div>
+            </li>
+            <li class="purchases__meal-item">
+              <div class="purchases__meal-image">
+                <img src="src/img/food-image-2.png" alt="Meal" />
+              </div>
+              <div class="purchases__meal-info">
+                <p class="purchases__meal-name">Swe Dish</p>
+                <p class="purchases__meal-description">Cancelled</p>
+                <div class="purchases__meal-time">Yesterday</div>
+              </div>
+            </li>
+            <li class="purchases__meal-item">
+              <div class="purchases__meal-image">
+                <img src="src/img/food-image-3.png" alt="Meal" />
+              </div>
+              <div class="purchases__meal-info">
+                <p class="purchases__meal-name">Fish Hell Veg</p>
+                <p class="purchases__meal-description">Delivered</p>
+                <div class="purchases__meal-time">Yesterday</div>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class="purchases__illustration">
+          <div class="purchases__illustration-header">
+            <h2 class="purchases__illustartion-title">Purchases</h2>
+            <select name="purchases__select" class="purchases__select">
+              <option value="value1">This day</option>
+              <option value="value2" selected>This week</option>
+              <option value="value3">This month</option>
+            </select>
+          </div>
+          <ul class="purchases__price-list">
+            <li class="purchases__price-item">
+              <div class="purchases__item-inner">
+                <div class="purchases__purchase-content">
+                  <div class="purchases__purchase-icon icon--violet">
+                    <svg
+                      class="purchases__svg"
+                      viewBox="0 0 19 19"
+                      role="img"
+                      aria-label="Save"
+                    >
+                      <use href="src/sprite.svg#wallet" />
+                    </svg>
+                  </div>
+                  <div class="purchases__purchase-info">
+                    <p class="purchases__purchase-name">Expensed</p>
+                    <p class="purchases__purchase-description">
+                      Increased By 10%
+                    </p>
+                  </div>
+                </div>
+
+                <div class="purchases__purchase-price">$409.00</div>
+              </div>
+
+              <div class="purchases__progress progress--violet"></div>
+            </li>
+            <li class="purchases__price-item">
+              <div class="purchases__item-inner">
+                <div class="purchases__purchase-content">
+                  <div class="purchases__purchase-icon icon--green">
+                    <svg
+                      class="purchases__svg"
+                      viewBox="0 0 19 19"
+                      role="img"
+                      aria-label="Save"
+                    >
+                      <use href="src/sprite.svg#money" />
+                    </svg>
+                  </div>
+                  <div class="purchases__purchase-info">
+                    <p class="purchases__purchase-name">Vocher Usage</p>
+                    <p class="purchases__purchase-description">
+                      Increased By 10%
+                    </p>
+                  </div>
+                </div>
+                <div class="purchases__purchase-price">$45.78</div>
+              </div>
+
+              <div class="purchases__progress progress--orange"></div>
+            </li>
+          </ul>
         </div>
       </div>
     </section>

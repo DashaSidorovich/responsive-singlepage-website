@@ -71,7 +71,7 @@ button.restaurants__item-button {
   padding: 10px 13px;
 }
 
-svg#restaurants__icon {
+svg.restaurants__icon {
   width: 16px;
   height: 21px;
 }

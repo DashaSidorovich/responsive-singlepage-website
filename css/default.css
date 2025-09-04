@@ -9,7 +9,6 @@ html {
   box-sizing: border-box;
   --padding-vertical: 30px;
   --padding-inline: 95px;
-  outline: 1px solid blue;
 }
 
 .container {
@@ -23,7 +22,7 @@ html {
 }
 
 body {
-  background-color: #fff;
+  background-color: #f9f9f9;
   min-height: 100vh;
   color: #1a202c;
   padding: 0;
@@ -194,6 +193,7 @@ svg.view-all-link {
 .item {
   border-radius: 30px;
   overflow: hidden;
+  background-color: #fff;
   box-shadow: 6px 30px 26px rgba(229, 229, 229, 0.7);
   transition: 1s;
 }
