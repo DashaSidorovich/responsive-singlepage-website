@@ -1,0 +1,120 @@
+.banner {
+  padding-top: var(--padding-top-catalogues);
+  padding-bottom: var(--padding-bottom-catalogues);
+  font-family: "Poppins", sans-serif;
+}
+
+.banner__inner {
+  border-radius: 30px;
+  background-image: url("/src/img/banner_bg.png");
+  min-height: fit-content;
+  padding: 37px 66px;
+  position: relative;
+}
+
+.banner__inner::after {
+  content: "";
+  position: absolute;
+  background-image: url("/src/img/food-image-1.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 274px;
+  height: 276px;
+  top: 30%;
+  right: 5%;
+}
+
+.banner__title {
+  font-weight: 800;
+  font-size: 70px;
+  line-height: 1.5;
+  color: #ffffff;
+}
+
+form.banner__form {
+  position: relative;
+  display: inline-block;
+}
+
+.banner__input {
+  border-radius: 15px;
+  color: #878787;
+  font-size: 16px;
+  width: 440px;
+  padding: 22px;
+}
+
+.banner__button-wrapper {
+  position: absolute;
+  right: 8px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.banner__button {
+  border-radius: 12px;
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 1.5;
+  background-color: #6c5fbc;
+  padding: 15px 25px;
+}
+
+@media (max-width: 1024px) {
+  .banner__inner::after {
+    width: 220px;
+    height: 220px;
+    top: 50%;
+    right: 2%;
+  }
+
+  .banner__title {
+    font-size: 50px;
+  }
+
+  .banner__input {
+    font-size: 12px;
+    width: 320px;
+  }
+
+  .banner__button {
+    font-size: 11px;
+    padding: 11px 17px;
+  }
+}
+
+@media (max-width: 768px) {
+  .banner__inner::after {
+    width: 170px;
+    height: 170px;
+    top: 80%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .banner__inner {
+    padding-bottom: 80px;
+  }
+
+  .banner__title {
+    font-size: 42px;
+  }
+
+  .banner__input {
+    font-size: 12px;
+    width: 100%;
+  }
+
+  .banner__button {
+    font-size: 10px;
+  }
+
+  .banner__form {
+    width: 100%;
+  }
+
+  .banner {
+    padding-bottom: 130px;
+  }
+}
