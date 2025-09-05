@@ -60,7 +60,7 @@
   position: absolute;
   right: 103%;
   top: 10%;
-  background-image: url("/src/img/star.svg");
+  background-image: url("src/img/star.svg");
   width: 18px;
   height: 18px;
 }

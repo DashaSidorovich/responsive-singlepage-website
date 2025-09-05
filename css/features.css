@@ -1,7 +1,7 @@
 .features {
   font-family: "Inter", sans-serif;
   text-align: center;
-  background-image: url("/src/img/bg.png");
+  background-image: url("src/img/bg.png");
   padding: 29px 0;
 }
 

@@ -63,7 +63,7 @@ svg#download-arrow {
   right: -18%;
   width: 53px;
   height: 62px;
-  background-image: url("/src/img/mobile-lines.svg");
+  background-image: url("src/img/mobile-lines.svg");
   z-index: 500;
 }
 
@@ -75,7 +75,7 @@ svg#download-arrow {
   height: 61px;
   width: 169px;
   transform: rotate(-5deg);
-  background-image: url("/src/img/sidetext-arrow.svg");
+  background-image: url("src/img/sidetext-arrow.svg");
   object-fit: cover;
 }
 

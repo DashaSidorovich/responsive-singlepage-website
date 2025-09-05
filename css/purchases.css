@@ -205,7 +205,7 @@
     position: absolute;
     right: 10%;
     transform: translateY(-140px) rotate(180deg) scaleX(-1);
-    background-image: url("/src/img/arrow.png");
+    background-image: url("src/img/arrow.png");
     width: 101px;
     height: 98px;
   }

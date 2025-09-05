@@ -6,7 +6,7 @@
 
 .banner__inner {
   border-radius: 30px;
-  background-image: url("/src/img/banner_bg.png");
+  background-image: url("src/img/banner_bg.png");
   min-height: fit-content;
   padding: 37px 66px;
   position: relative;
@@ -15,7 +15,7 @@
 .banner__inner::after {
   content: "";
   position: absolute;
-  background-image: url("/src/img/food-image-1.png");
+  background-image: url("src/img/food-image-1.png");
   background-repeat: no-repeat;
   background-size: contain;
   width: 274px;
