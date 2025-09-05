@@ -162,7 +162,7 @@ input#menu {
   left: 4.4%;
   width: 100%;
   height: 100%;
-  background-image: url("../src/img/ellipse.png");
+  background-image: url("src/img/ellipse.png");
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
@@ -186,7 +186,7 @@ input#menu {
   top: 90%;
   left: 50%;
   z-index: 0;
-  background-image: url(../src/img/arrow.png);
+  background-image: url("src/img/arrow.png");
 }
 
 .meal-graph {
@@ -209,7 +209,7 @@ input#menu {
   top: 97%;
   left: -16%;
   z-index: 400;
-  background-image: url(../src/img/lines.png);
+  background-image: url("src/img/lines.png");
   background-size: contain;
   background-repeat: no-repeat;
 }
@@ -222,7 +222,7 @@ input#menu {
   top: -15%;
   left: 85%;
   z-index: 400;
-  background-image: url(../src/img/waves.png);
+  background-image: url("src/img/waves.png");
   background-size: contain;
 }
 svg#menu-icon {
